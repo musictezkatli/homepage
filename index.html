@@ -458,7 +458,7 @@
   <button class="mp-close" title="閉じる">✕</button>
 </div>
 <div class="startmenu" id="startmenu">
-  <div class="head"><span>TezKa</span><span class="head-ver">v299</span></div>
+  <div class="head"><span>TezKa</span><span class="head-ver">v300</span></div>
   <button data-open="profile">👤　Profile</button>
   <button data-open="player">▶️　Preview</button>
   <button data-open="wave">🎵　Works</button>
@@ -1317,7 +1317,7 @@ function birdSearch(){
     document.getElementById("balloon-msg").textContent = "なんかライブのひにちと かんけいがあるきがしてきたな～。";
     return;
   }
-  const pool = ["わかりません。ことりなので。", "ピー！！！", "ﾁｭﾝﾁｭﾝ（ことりは、最もことりらしい声で鳴いています）", "わからなくたって いいじゃない", "かのうせいは ありますね", "いいおんがくですね。", "いいてんきだな。", "ちょっと ハイがつよくないですか？", "めまぐるしい よのなかだ。", "かごはちょっと せまいんです。", "いるかは しいたげられがち。"];
+  const pool = ["わかりません。ことりなので。", "ピー！！！", "ﾁｭﾝﾁｭﾝ（ことりは、最もことりらしい声で鳴いています）", "わからなくたって いいじゃない", "かのうせいは ありますね", "いいおんがくですね。", "いいてんきだな。", "ちょっと ハイがつよくないですか？", "めまぐるしい よのなかだ。", "かごはちょっと せまいんです。", "いるかは しいたげられがち。", "やきとりとかいう おそろしいことば。", "なんでもきいてね。きくだけだけど。", "はねがだるいのでとびません。きょうはね。", "とりのようにまい、とりのようにさす。", "だれもが ころがるいし さ。とびっきりまるいいし。", "ﾎｹｷｮ"];
   document.getElementById("balloon-msg").textContent = pool[Math.floor(Math.random() * pool.length)];
 }
 document.getElementById("balloon-search").addEventListener("click", birdSearch);
